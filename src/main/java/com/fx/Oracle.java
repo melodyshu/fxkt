@@ -28,7 +28,7 @@ public class Oracle {
         return "index";
     }
 
-    @RequestMapping("/demo/init2.do")
+    @RequestMapping("/demo/fanxin.do")
     public ModelAndView init2(){
         ModelAndView mv=new ModelAndView("index");
         mv.addObject("name","zhangsan");

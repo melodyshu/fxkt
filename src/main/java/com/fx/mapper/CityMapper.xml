@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fx.dao.CityMapper">
     <select id="queryAll" resultType="com.fx.City">
-    select id,name from city;
+    select id,name from city
   </select>
 </mapper>
